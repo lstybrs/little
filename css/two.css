@@ -1,0 +1,182 @@
+.mainCont,
+.weekCont {
+  margin-top: 10px;
+}
+.pic-list {
+  width: 700px;
+}
+.main-side {
+  width: 260px;
+}
+.pic-list__title .icon {
+  display: inline-block;
+  width: 46px;
+  height: 64px;
+  background: url(../../../Downloads/5e06be1c2da14/images/page_icons.png) no-repeat;
+}
+.pic-list__title h2 {
+  display: inline-block;
+  line-height: 64px;
+  font-size: 24px;
+  vertical-align: top;
+}
+
+.pic-list__title .tab-title {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+
+
+.pic-list .tab-cont__item {
+  display: none;
+}
+.pic-list .tab-cont__cur {
+  display: block;
+}
+
+.main-side__title {
+  height: 64px;
+}
+.main-side__title .rank-t {
+  float: left;
+  padding-top: 22px;
+  padding-right: 6px;
+  font-size: 18px;
+}
+
+.tab-title {
+  float: left;
+  padding-top: 18px;
+  font-size: 0;
+}
+.tab-title a {
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+  height: 25px;
+  line-height: 25px;
+  margin-left: 14px;
+}
+.tab-title a:hover {}
+.tab-title a.cur {
+  color: #00a1d6;
+  border-bottom: 1px solid #00a1d6;
+}
+.tab-title a.cur:after {
+  position: absolute;
+  left: 45%;
+  bottom: 0;
+  content: "";
+  width: 0;
+  height: 0;
+  border-width: 3px;
+  border-style: solid;
+  border-color: transparent transparent #00a1d6 transparent;
+}
+
+
+.main-rank .item {
+  height: 18px;
+  margin-bottom: 20px;
+}
+
+.main-rank .item i {
+  float: left;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  margin-right: 7px;
+  text-align: center;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #b8c0cc;
+}
+
+.main-rank .item i.n1,
+.main-rank .item i.n2,
+.main-rank .item i.n3 {
+  background-color: #f25d8e;
+}
+
+#bangumi .icon-bangumi {
+  background-position: -141px -128px;
+}
+.weekCont .week-tab {
+  margin-left: 22px;
+  border-bottom: 1px solid #e5e9ef;
+}
+.weekCont .week-tab a {
+  width: 48px;
+  height: 35px;
+  font-size: 18px;
+  margin: 0 10px 0 0;
+  text-align: center;
+}
+.weekCont .week-tab a:last-child {
+  margin: 0;
+}
+.weekCont .week-tab a.cur {}
+.week-schedule {
+  position: relative;
+  float: right;
+  width: 94px;
+  height: 34px;
+  padding-left: 10px;
+  line-height: 34px;
+  margin-top: 18px;
+  border: 1px solid #f25d8e;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #f25d8e;
+}
+.week-schedule:hover {
+  color: #fff;
+  background-color: #f25d8e;
+}
+.week-schedule i {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 6px;
+  height: 12px;
+  background: url(../../../Downloads/5e06be1c2da14/images/page_icons.png) no-repeat -478px -281px;
+}
+.week-schedule:hover i {
+  background-position: -541px -218px;
+}
+.weekCont-list {
+  padding-top: 18px;
+}
+.weekCont-list li {
+  float: left;
+  width: 33.33%;
+  height: 72px;
+  padding-bottom: 36px;
+}
+.weekCont-list .pic {
+  float: left;
+  width: 72px;
+  height: 72px;
+}
+.weekCont-list .pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+.weekCont-list .info {
+  position: relative;
+  float: left;
+  width: 120px;
+  height: 72px;
+  margin-left: 12px;
+}
+.weekCont-list .info a {}
+.weekCont-list .info p {
+  position: absolute;
+  bottom: 0;
+  color: #aaa;
+}
+
+

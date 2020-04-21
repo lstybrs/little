@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="utf-8"> 
+    <title>视频播放</title> 
+    <link rel="stylesheet" href="css/five.css">
+    <style>
+        body{
+            background: url('images/beijin2.jpg') no-repeat;
+            background-attachment:fixed
+        }
+    </style>
+</head>
+<body>
+<header style="margin-top: -20px">
+    <form>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#">十月新番</a>
+                </li>
+                <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="#">分类</a>
+                    <ul>
+                        <li><a href="#">热血</a></li>
+                        <li><a href="#">青春</a></li>
+                        <li><a href="#">后宫</a></li>
+                        <li><a href="#">冒险</a></li>
+                        <li><a href="#">搞笑</a></li>
+                        <li><a href="#">机战</a></li>
+                        <li><a href="#">恐怖</a></li>
+                        <li><a href="#">剧场</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">补番推荐</a></li>
+                <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="#">投稿区</a>
+                    <ul>
+                        <li><a href="#">音乐</a></li>
+                        <li><a href="#">影视</a></li>
+                        <li><a href="#">动漫</a></li>
+                        <li><a href="#">生活</a></li>
+                        <li><a href="#">娱乐</a></li>
+                        <li><a href="#">运动</a></li>
+                        <li><a href="#">鬼畜</a></li>
+                        <li><a href="#">舞蹈</a></li>
+                        <li><a href="#">游戏</a></li>
+                        <li><a href="#">科教</a></li>
+                        <li><a href="#">投稿</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">播放记录</a></li>
+                <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"><a href="#">个人中心</a>
+                    <ul>
+                        <li><a href="1.html" target="_blank">注册</a></li>
+                        <li><a href="1.html" target="_blank">登录</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div id="search" style="margin-left: 100px">
+                        <form class="search"style="width: 200px">
+                            <input type="text"  value="" placeholder="搜索">
+                            <input type="submit" value="搜索">
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </form>
+</header>
+
+<div class="dm3">
+    <a style="height:20px;width: 80px;">鬼灭之刃:一部有趣的番剧</a>
+</div>
+<div style="text-align: center;margin-top: 10px;">
+    <div style="background-color: black">
+        <video width="1000px" height="500px" controls autoplay>
+            <source src="movie.ogg" type="video/ogg">
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.webm" type="video/webm">
+       </video>
+    </div>
+</div>
+<div class="dm4" >
+    <img src="images/guimie.jpg" style="height: 100px;float: left">
+    <ul>
+        <li style="width: 150px">
+    <span style="background-color: palevioletred;border-radius: 90px;">第一集</span>
+    <a style="width: 100px">鬼灭之刃</a>
+        </li>
+
+        <li style="width: 150px;overflow: hidden">
+            <span style="background-color: palevioletred;border-radius: 90px;">简介</span>
+            <a style="width: 100px;font-weight: bold">鬼灭之刃第一集</a>
+        </li></ul>
+<ul>
+        <li style="width: 500px;">
+            <span style="background-color: palevioletred;border-radius: 90px;">故事</span>
+            <span style="width: 100px;font-weight: bold">超自然社团“不可思议发现CLUB”的平凡且单身的高中生柴木耕太偶然发现了一本魔导书，并且误打误撞地使用魔导书的力量召唤出了能够实现愿望的魔女“璐璐萌”，其代价则是付出生命……</span>
+        </li>
+</ul>
+</div>
+<div class="dm5">
+    <a style="color: blueviolet;font-weight: bold;font-size: 20px">全部评论</a>
+</div>
+<div class="dm6" style="min-width: 1500px">
+    <textarea type="text" placeholder="请输入你要评论的话"></textarea>
+</div>
+<div style="margin-top: -63px;margin-left: 810px;min-width: 1000px"><input style="width: 60px;height: 60px;border: 1px solid #2687eb;border-radius: 10px" type="button" value="发送"></div>
+</body>
+<script type="text/javascript">
+    function displaySubMenu(li) {
+        var subMenu = li.getElementsByTagName("ul")[0];
+        subMenu.style.display = "block";
+    }
+    function hideSubMenu(li) {
+        var subMenu = li.getElementsByTagName("ul")[0];
+        subMenu.style.display = "none";
+    }
+</script>
+</html>
